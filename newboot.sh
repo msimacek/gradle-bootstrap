@@ -372,6 +372,7 @@ google-gson/gson
 gpars/gpars
 groovy/groovy-all
 guava
+guava-jdk5
 hamcrest/core
 hawtjni/hawtjni-runtime
 httpcomponents/httpclient
