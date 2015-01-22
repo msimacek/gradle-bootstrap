@@ -6,6 +6,12 @@ fast=false
 # gradle-bootstrap-modules is generated with gradle_topo_sort.py
 modules=$(cat gradle-bootstrap-modules)
 
+# *-classpath.properties files generated with following snippet
+# for jar in /usr/share/java/gradle/*.jar; do
+#     propfile="$(basename -s .jar $jar)-classpath.properties"
+#     echo "echo '$(unzip -q -c $jar $propfile)' >$propfile"
+# done
+
 echo '#module definition
 #Wed Jan 21 06:15:54 UTC 2015
 projects=gradle-core
