@@ -3,6 +3,8 @@ set -e
 
 fast=false
 
+LANG=en_US.utf8
+
 # gradle-bootstrap-modules is generated with gradle_topo_sort.py
 modules=$(cat gradle-bootstrap-modules)
 
