@@ -219,6 +219,41 @@ EOF
 
 mkdir -p subprojects/docs/src/main/resources/
 cat <<EOF >subprojects/docs/src/main/resources/default-imports.txt
+import org.gradle.*
+import org.gradle.api.*
+import org.gradle.api.artifacts.*
+import org.gradle.api.artifacts.cache.*
+import org.gradle.api.artifacts.component.*
+import org.gradle.api.artifacts.dsl.*
+import org.gradle.api.artifacts.ivy.*
+import org.gradle.api.artifacts.maven.*
+import org.gradle.api.artifacts.query.*
+import org.gradle.api.artifacts.repositories.*
+import org.gradle.api.artifacts.result.*
+import org.gradle.api.component.*
+import org.gradle.api.distribution.*
+import org.gradle.api.distribution.plugins.*
+import org.gradle.api.dsl.*
+import org.gradle.api.execution.*
+import org.gradle.api.file.*
+import org.gradle.api.initialization.*
+import org.gradle.api.initialization.dsl.*
+import org.gradle.api.invocation.*
+import org.gradle.api.java.archives.*
+import org.gradle.api.logging.*
+import org.gradle.api.plugins.*
+import org.gradle.api.plugins.announce.*
+import org.gradle.api.plugins.antlr.*
+import org.gradle.api.plugins.buildcomparison.gradle.*
+import org.gradle.api.plugins.jetty.*
+import org.gradle.api.plugins.osgi.*
+import org.gradle.api.plugins.quality.*
+import org.gradle.api.plugins.scala.*
+import org.gradle.api.plugins.sonar.*
+import org.gradle.api.plugins.sonar.model.*
+import org.gradle.api.publish.*
+import org.gradle.api.publish.ivy.*
+import org.gradle.api.publish.ivy.plugins.*
 import org.gradle.api.publish.ivy.tasks.*
 import org.gradle.api.publish.maven.*
 import org.gradle.api.publish.maven.plugins.*
